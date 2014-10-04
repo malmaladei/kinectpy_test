@@ -53,7 +53,7 @@ def draw_sensor(f):
     the depth sensor frame aligned with f.
     """
     box(frame=f, pos=(0, 0, 0), length=0.2794, height=0.0381, width=0.0635,
-        color=color.blue)
+        color=color.blue) 
     cylinder(frame=f, pos=(0, -0.05715, 0), axis=(0, 0.0127, 0), radius=0.0381,
              color=color.blue)
     cone(frame=f, pos=(0, -0.04445, 0), axis=(0, 0.01905, 0), radius=0.0381,
